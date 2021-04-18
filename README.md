@@ -1,5 +1,6 @@
 # Dataclass_generator
 you can create data class files using this code.
+Note: this code is only for python getters and setters.
 
 #Steps
 1. Change the value of variable library_name to the name of your library.
