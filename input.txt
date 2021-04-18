@@ -1,0 +1,7 @@
+id: int 
+emailId: str
+address: str
+lane: str
+phone: str
+designation: str
+county: str

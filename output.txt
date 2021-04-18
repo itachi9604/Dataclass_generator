@@ -1,0 +1,65 @@
+id: int = None
+emailId: str = None
+address: str = None
+lane: str = None
+phone: str = None
+designation: str = None
+county: str = None
+
+
+@property
+def datasource_id(self):
+	return self.id
+
+@datasource_id.setter
+def datasource_id(self,datasource_id:int):
+	self.id=datasource_id
+
+@property
+def datasource_email_id(self):
+	return self.emailId
+
+@datasource_email_id.setter
+def datasource_email_id(self,datasource_email_id:str):
+	self.emailId=datasource_email_id
+
+@property
+def datasource_address(self):
+	return self.address
+
+@datasource_address.setter
+def datasource_address(self,datasource_address:str):
+	self.address=datasource_address
+
+@property
+def datasource_lane(self):
+	return self.lane
+
+@datasource_lane.setter
+def datasource_lane(self,datasource_lane:str):
+	self.lane=datasource_lane
+
+@property
+def datasource_phone(self):
+	return self.phone
+
+@datasource_phone.setter
+def datasource_phone(self,datasource_phone:str):
+	self.phone=datasource_phone
+
+@property
+def datasource_designation(self):
+	return self.designation
+
+@datasource_designation.setter
+def datasource_designation(self,datasource_designation:str):
+	self.designation=datasource_designation
+
+@property
+def datasource_county(self):
+	return self.county
+
+@datasource_county.setter
+def datasource_county(self,datasource_county:str):
+	self.county=datasource_county
+
